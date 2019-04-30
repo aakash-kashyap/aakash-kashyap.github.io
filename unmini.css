@@ -1,0 +1,462 @@
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    width: 100%;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}  
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.bg-grey {
+    background-color: #f1f1f1;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span {
+    font-style: normal;
+}
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+.panel-heading {
+    color: #fff !important;
+    background-color: #12153e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: white !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #12153e !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+footer .fa{
+  font-size: 50px;
+  color: #12153e;
+  margin: 0 2rem;
+}
+
+.slideanim {visibility:hidden;}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 150px;
+  }
+}
+
+
+/*=========================================================================================*/
+/*=========================================================================================*/
+
+
+#myPhoto{
+  border-radius: 60%;
+  box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.5);
+  width: 30%;
+}
+
+.text-one {
+  color: #f4511e;
+}
+
+.text-two{
+  color: white;
+}
+
+div #myName{
+  display: inline-block;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 1em;
+  font-size: 2.5rem;
+  background: black;
+  padding: 0.1em 0.3em;
+  border-radius: 1.9em;
+}
+
+.profile-icon a{
+  text-decoration: none;
+  font-size: 2.5em;
+  color: white; 
+  padding: 0.1em 0.25em;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.profile-icon a:hover{
+  text-decoration: none;
+  width:3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2.5em;
+  color: #f4511e; 
+  padding: 0.1em 0.25em;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+#questionIcon{
+  color: #12153e;
+  font-size: 8rem;
+}
+
+#questionIcon:hover{
+  color: #f4511e;
+  font-size: 9rem;
+}
+
+
+.text-one:hover{
+    color: white;
+}
+
+.text-two:hover{
+  color: #f4511e;
+}
+
+#about label li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#about{
+  background: #f6f6f6;
+}
+
+
+.text-left{
+  text-align: left;
+  line-height: 1
+}
+
+.title, hr{
+  color: #12153e;
+}
+
+#firstSection{
+  background: #12153e;
+}
+
+#skills{
+  background:#c6d4d1;
+}
+
+
+#nodelogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/nodelogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#jslogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/jslogo.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#htmllogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/htmllogo.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#csslogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/csslogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bootstraplogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/bootstraplogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#angularlogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/angularlogo.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#jquerylogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/jquerylogo.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#phplogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/phplogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#clogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/clogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cpplogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/cpplogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pythonlogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/pythonlogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#arduinologo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/arduinologo.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#nmculogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/nmculogo.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#rpilogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/rpilogo.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#gitlogo{
+  width: 20rem;
+  height: 20rem;
+  background: url(images/gitlogo.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#skills div div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner .item div img{
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  padding-top: 5rem; 
+}
+
+
+.margin-auto {
+  text-align: center;
+  font-size: 1em;
+}
+.contact {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*.thumbnail img{
+  border: 1.0rem solid red;
+  padding: 2rem;
+  cursor: pointer;
+  transition: 0.3s;                     
+}*/
+
+
+/*.thumbnail img:hover{ 
+  opacity: 0.5;
+}*/
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+ 
